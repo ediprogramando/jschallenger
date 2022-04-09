@@ -2,11 +2,7 @@
 // Return true if the two values are equal and of the same type
 // https://www.jschallenger.com/javascript-basics/comparison-strict-equality
 function
-myFunction
-(
-a, b
-)
-{
+myFunction (a, b) {
 
 if (a ===b) {
    return true;
@@ -15,22 +11,14 @@ if (a ===b) {
 }
 }
 
+const valores = [
+   [2, 3, false],
+   [3, 3, true],
+   [1, '1', false],
+   ['10', '10', true]
+];
 
-
-/*
-myFunction(2, 3)
-Expected
-false 
-myFunction(3, 3)
-Expected
-true 
-myFunction(1, '1')
-Expected
-false 
-myFunction('10', '10')
-Expected
-true 
-*/
-
-
-
+for (var i = 0; i < valores.length; i++) {
+   result = myFunction(valores[i][0], valores [i] [1]);
+   console.log("resultado: " + result + ", " + valores[i][2]);
+}
