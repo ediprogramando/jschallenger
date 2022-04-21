@@ -6,7 +6,7 @@
 function myFunction(a)
 {
     function checkPrime(number) {
-        for (var i = 2; i < number; i++) {
+        for (var  i = 2; i < number; i++) {
             if (number % i === 0) {
                 return false;
             }
@@ -38,6 +38,8 @@ console.log(myFunction(38));
 console.log(myFunction(7));
 console.log(myFunction(115));
 console.log(myFunction(2000));
+console.log(myFunction(11));
+console.log(myFunction(10));
 
 /*
 myFunction(38)
