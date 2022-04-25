@@ -19,13 +19,21 @@ function myFunction(str) {
 
     return a.join("");
 }
-  
+const valores = [
+    ['bnchmf', 'coding'],
+    ['bgddrd', 'cheese'],
+    ['sdrshmf', 'testing']
+ ];
+ 
+ for (var i = 0; i < valores.length; i++) {
+    result = myFunction(valores[i][0]);
+    console.log("resultado: " + result + ", " + valores[i][1]);
+ }
+ 
 
-
-
-console.log(myFunction('bnchmf'));
-console.log(myFunction('bgddrd'));
-console.log(myFunction('sdrshmf'));
+ console.log(myFunction('bnchmf'));
+ console.log(myFunction('bgddrd'));
+ console.log(myFunction('sdrshmf'));
 
 /*
 function myFunction(str) {
@@ -36,17 +44,6 @@ function myFunction(str) {
 */
 
 
-/*
-myFunction('bnchmf')
-Expected
-'coding'
-myFunction('bgddrd')
-Expected
-'cheese'
-myFunction('sdrshmf')
-Expected
-'testing'
-*/
 
 /*
 return Array.from(String(a), Number);
