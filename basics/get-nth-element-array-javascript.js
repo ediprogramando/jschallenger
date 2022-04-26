@@ -2,7 +2,7 @@
 // Return the nth element of 'a'
 function myFunction(a, n) {
 
-   return a [n - 1];
+   return n [n - 1];
  }
 
 
