@@ -5,9 +5,18 @@
 // Return the filtered array
 function myFunction(a, b) {
 
-  return 
+var resultado = [];
+  for (var i = 0; i < a.length; i += 1) {
+    if (a[i] !== b) {
+      resultado.push(a[i]);
+    } 
+  }
+  return resultado;
 }
-
+console.log(myFunction([1,2,3], 2));
+console.log(myFunction([1,2,'2'], '2'));
+console.log(myFunction([false,'2',1], false));
+console.log(myFunction([1,2,'2',1], 1));
 
 /*
 myFunction([1,2,3], 2)
