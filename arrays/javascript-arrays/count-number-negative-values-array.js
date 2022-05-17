@@ -2,14 +2,9 @@ https://www.jschallenger.com/javascript-arrays/count-number-negative-values-arra
 
 // Write a function that takes an array of numbers as argument
 // Return the number of negative values in the array
-function
-myFunction
-(
-a
-)
-{
+function myFunction(a) {
 
-return 
+   return 
 }
 
 /*
