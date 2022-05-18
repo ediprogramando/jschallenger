@@ -7,6 +7,10 @@ function myFunction(a) {
    return 
 }
 
+console.log(2, myFunction([1,-2,2,-4]));
+console.log(0, myFunction([0,9,1]));
+console.log(1, myFunction([4,-3,2,1,0]));
+
 /*
 myFunction([1,-2,2,-4])
 Expected
