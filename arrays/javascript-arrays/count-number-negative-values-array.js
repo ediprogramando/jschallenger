@@ -4,8 +4,24 @@ https://www.jschallenger.com/javascript-arrays/count-number-negative-values-arra
 // Return the number of negative values in the array
 function myFunction(a) {
 
-   return 
-}
+   var countnegatives
+     let count = 0
+
+
+  for(i = a.length - 1; i >= 0; i--){
+    for(j = a[i].length - 1; j >= 0; j--){
+      if(Math.sign(a[i][j]) === -1) {
+        count++
+      } else {
+        break
+      }
+    }
+  }
+
+  // return the amount of negative numbers in grid
+  return count
+};
+
 
 console.log(2, myFunction([1,-2,2,-4]));
 console.log(0, myFunction([0,9,1]));
