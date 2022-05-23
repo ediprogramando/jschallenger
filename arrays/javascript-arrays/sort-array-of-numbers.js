@@ -7,6 +7,9 @@ function myFunction(arr) {
    return 
 }
 
+console.log(myFunction([1,3,2]));
+console.log(myFunction([4,2,3,1]));
+
 /*
 myFunction([1,3,2])
 Expected
