@@ -4,7 +4,7 @@ https://www.jschallenger.com/javascript-arrays/sort-array-of-numbers
 // It should return an array with the numbers sorted in descending order
 function myFunction(arr) {
 
-   return 
+   return arr.sort().reverse();
 }
 
 console.log(myFunction([1,3,2]));
