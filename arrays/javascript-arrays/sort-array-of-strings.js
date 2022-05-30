@@ -5,7 +5,7 @@ https://www.jschallenger.com/javascript-arrays/sort-array-of-strings
 // Return the result
 function myFunction(arr) {
 
-   return 
+   return arr.sort();
 }
 console.log(myFunction(['b', 'c', 'd', 'a']));
 console.log(myFunction(['z', 'c', 'd', 'a', 'y', 'a', 'w']));
