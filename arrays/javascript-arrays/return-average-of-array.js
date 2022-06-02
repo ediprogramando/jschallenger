@@ -4,12 +4,17 @@ https://www.jschallenger.com/javascript-arrays/return-average-of-array
 // It should return the average of the numbers
 function myFunction(arr) {
 
-   return 
+    var sum = 0;
+    for( var i = 0; i < arr.length; i++ ){
+        sum += ( arr[i]); 
+    }
+    
+   return sum/arr.length;
 }
 
 console.log(myFunction([10,100,40]));
 console.log(myFunction([10,100,1000]));
-console.log(myFunction(-50,0,50,200));
+console.log(myFunction([-50,0,50,200]));
 
 /*
 myFunction([10,100,40])
