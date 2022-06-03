@@ -10,6 +10,8 @@ function myFunction(arr) {
     }
     
    return sum/arr.length;
+   // return arr.reduce((acc, cur) => acc + cur, 0) / arr.length
+
 }
 
 console.log(myFunction([10,100,40]));
